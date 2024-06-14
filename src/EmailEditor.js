@@ -54,7 +54,7 @@ const EmailEditorData = ({ onChange }) => {
         if (unlayer) {
             await unlayer.exportHtml((data) => {
                 const { design, html } = data;
-                console.log('exportHtml', JSON.stringify(design), html);
+                console.log('exportHtml', design, html);
                 // You can use the design and html data here, e.g., send it to your backend
             });
         } else {
@@ -79,6 +79,7 @@ const EmailEditorData = ({ onChange }) => {
                 <div>
                     <button onClick={exportHtml}>Export HTML</button>
                 </div>
+                {console.log("hello")}
                 <EmailEditor
                     ref={emailEditorRef}
                     // onReady={onLoad}

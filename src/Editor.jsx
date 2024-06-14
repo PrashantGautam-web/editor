@@ -4,7 +4,6 @@ const Editor = () => {
     const editor = useRef(null);
     const [content, setContent] = useState('');
     const [show, setShow] = useState(false)
-    console.log(content)
     const getEditor = () => {
         return (
             <>
