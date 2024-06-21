@@ -11,8 +11,8 @@ const Templates = () => {
             <>
                 <h1>Templates</h1>
                 <div style={{ display: "flex" }} >
-                    <div style={{ height: "600px", width: "350px" }}>
-                        <h1 style={{ width: "100%" }} onClick={() => { navigate(`/edit-template`) }}>Create New Template</h1>
+                    <div style={{ height: "600px", width: "350px", alignContent: "center" }}>
+                        <h1 style={{ width: "350px" }} onClick={() => { navigate(`/edit-template`) }}>Create New Template</h1>
                     </div>
                     {templates.map((item, index) => {
                         return (

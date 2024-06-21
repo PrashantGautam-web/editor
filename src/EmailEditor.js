@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import EmailEditor, { EditorRef, EmailEditorProps } from 'react-email-editor';
-// import data from './test'; // Assuming 'test' is a valid JSON file
 import { useLocation, useParams } from 'react-router-dom';
 import { templatesData } from './TemplatesData';
 
