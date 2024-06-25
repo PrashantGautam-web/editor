@@ -1,5 +1,7 @@
 import jsonString from "./test";
 import jsonString2 from "./test2";
+import jsonString3 from "./test3";
+
 import rasterizeHTML from "rasterizehtml";
 
 const generateTemplateImage = async (htmlEvent) => {
@@ -3937,65 +3939,62 @@ table, td { color: #000000; } </style>
     </html>
     ` ?? "")
   }, {
-    content: jsonString, image: await generateTemplateImage(`<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    content: jsonString3, image: await generateTemplateImage(`<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
     <head>
-    <!--[if gte mso 9
-    ]>
+    <!--[if gte mso 9]>
     <xml>
       <o:OfficeDocumentSettings>
         <o:AllowPNG/>
         <o:PixelsPerInch>96</o:PixelsPerInch>
       </o:OfficeDocumentSettings>
     </xml>
-    <![endif
-    ]-->
+    <![endif]-->
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="x-apple-disable-message-reformatting">
-      <!--[if !mso
-    ]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif
-    ]-->
+      <!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]-->
       <title></title>
       
         <style type="text/css">
-          @media only screen and (min-width: 720px) {
+          @media only screen and (min-width: 640px) {
       .u-row {
-        width: 700px !important;
-        }
+        width: 620px !important;
+      }
       .u-row .u-col {
         vertical-align: top;
-        }
+      }
     
-      .u-row .u-col-33p33 {
-        width: 233.31px !important;
-        }
+      .u-row .u-col-50 {
+        width: 310px !important;
+      }
     
       .u-row .u-col-100 {
-        width: 700px !important;
-        }
+        width: 620px !important;
+      }
+    
     }
     
-    @media (max-width: 720px) {
+    @media (max-width: 640px) {
       .u-row-container {
         max-width: 100% !important;
         padding-left: 0px !important;
         padding-right: 0px !important;
-        }
+      }
       .u-row .u-col {
         min-width: 320px !important;
         max-width: 100% !important;
         display: block !important;
-        }
+      }
       .u-row {
         width: 100% !important;
-        }
+      }
       .u-col {
         width: 100% !important;
-        }
+      }
       .u-col > div {
         margin: 0 auto;
-        }
+      }
     }
     body {
       margin: 0;
@@ -4022,81 +4021,57 @@ table, td { color: #000000; } </style>
       line-height: inherit;
     }
     
-    a[x-apple-data-detectors='true'
-    ] {
+    a[x-apple-data-detectors='true'] {
       color: inherit !important;
       text-decoration: none !important;
     }
     
-    table, td { color: #000000;
-    } </style>
+    table, td { color: #000000; } </style>
       
       
     
     </head>
     
     <body class="clean-body u_body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #F7F8F9;color: #000000">
-      <!--[if IE
-    ]><div class="ie-container"><![endif
-    ]-->
-      <!--[if mso
-    ]><div class="mso-container"><![endif
-    ]-->
+      <!--[if IE]><div class="ie-container"><![endif]-->
+      <!--[if mso]><div class="mso-container"><![endif]-->
       <table style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: #F7F8F9;width:100%" cellpadding="0" cellspacing="0">
       <tbody>
       <tr style="vertical-align: top">
         <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-        <!--[if (mso)|(IE)
-    ]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background-color: #F7F8F9;"><![endif
-    ]-->
+        <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background-color: #F7F8F9;"><![endif]-->
         
       
       
     <div class="u-row-container" style="padding: 0px;background-color: transparent">
-      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 700px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
         <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
-          <!--[if (mso)|(IE)
-    ]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-color: transparent;"><![endif
-    ]-->
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: transparent;"><![endif]-->
           
-    <!--[if (mso)|(IE)
-    ]><td align="center" width="700" style="background-color: #152241;width: 700px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif
-    ]-->
-    <div class="u-col u-col-100" style="max-width: 320px;min-width: 700px;display: table-cell;vertical-align: top;">
-      <div style="background-color: #152241;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-      <!--[if (!mso)&(!IE)
-    ]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif
-    ]-->
+    <!--[if (mso)|(IE)]><td align="center" width="620" style="background-color: #242c6b;width: 620px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+    <div class="u-col u-col-100" style="max-width: 320px;min-width: 620px;display: table-cell;vertical-align: top;">
+      <div style="background-color: #242c6b;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+      <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
       
     <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
       <tbody>
         <tr>
           <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
             
-      <!--[if mso
-    ]><table width="100%"><tr><td><![endif
-    ]-->
-        <h1 style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><span>Lesson plan 1| Anecdotas 2</span></h1>
-      <!--[if mso
-    ]></td></tr></table><![endif
-    ]-->
+      <!--[if mso]><table width="100%"><tr><td><![endif]-->
+        <h1 style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><span><span><br /><strong>Planificando juntos | Anécdotas 1</strong></span></span></h1>
+      <!--[if mso]></td></tr></table><![endif]-->
     
           </td>
         </tr>
       </tbody>
     </table>
     
-      <!--[if (!mso)&(!IE)
-    ]><!--></div><!--<![endif
-    ]-->
+      <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
       </div>
     </div>
-    <!--[if (mso)|(IE)
-    ]></td><![endif
-    ]-->
-          <!--[if (mso)|(IE)
-    ]></tr></table></td></tr></table><![endif
-    ]-->
+    <!--[if (mso)|(IE)]></td><![endif]-->
+          <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
         </div>
       </div>
       </div>
@@ -4106,50 +4081,85 @@ table, td { color: #000000; } </style>
       
       
     <div class="u-row-container" style="padding: 0px 50px;background-color: transparent">
-      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 700px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
         <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
-          <!--[if (mso)|(IE)
-    ]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-color: transparent;"><![endif
-    ]-->
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: transparent;"><![endif]-->
           
-    <!--[if (mso)|(IE)
-    ]><td align="center" width="692" style="background-color: #79a0ac;width: 692px;padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif
-    ]-->
-    <div class="u-col u-col-100" style="max-width: 320px;min-width: 700px;display: table-cell;vertical-align: top;">
-      <div style="background-color: #79a0ac;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-      <!--[if (!mso)&(!IE)
-    ]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif
-    ]-->
+    <!--[if (mso)|(IE)]><td align="center" width="304" style="background-color: #bee8e5;width: 304px;padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 2px solid #0e0b21;border-bottom: 2px solid #0e0b21;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+    <div class="u-col u-col-50" style="max-width: 320px;min-width: 310px;display: table-cell;vertical-align: top;">
+      <div style="background-color: #bee8e5;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+      <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 2px solid #0e0b21;border-bottom: 2px solid #0e0b21;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
       
     <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
       <tbody>
         <tr>
           <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
             
-      <!--[if mso
-    ]><table width="100%"><tr><td><![endif
-    ]-->
-        <h1 style="margin: 0px; color: #182743; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><span><span><span><span>LAS SOCIEDADES<br />EN CONTACTO</span></span></span></span></h1>
-      <!--[if mso
-    ]></td></tr></table><![endif
-    ]-->
+      <div style="font-size: 18px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;"><em>3. Teacher will...</em></p>
+      </div>
     
           </td>
         </tr>
       </tbody>
     </table>
     
-      <!--[if (!mso)&(!IE)
-    ]><!--></div><!--<![endif
-    ]-->
+    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
+            
+      <div style="font-size: 15px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;">facilitate popcorn reading for pages 3-5 in the textbook. Ask questions in between paragraphs to check for understanding.</p>
+      </div>
+    
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+      <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
       </div>
     </div>
-    <!--[if (mso)|(IE)
-    ]></td><![endif
-    ]-->
-          <!--[if (mso)|(IE)
-    ]></tr></table></td></tr></table><![endif
-    ]-->
+    <!--[if (mso)|(IE)]></td><![endif]-->
+    <!--[if (mso)|(IE)]><td align="center" width="306" style="background-color: #bee8e5;width: 306px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 4px solid #000000;border-bottom: 2px solid #0e0b21;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+    <div class="u-col u-col-50" style="max-width: 320px;min-width: 310px;display: table-cell;vertical-align: top;">
+      <div style="background-color: #bee8e5;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+      <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 4px solid #000000;border-bottom: 2px solid #0e0b21;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
+      
+    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
+            
+      <div style="font-size: 17px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;"><em>3. Studens will...</em></p>
+      </div>
+    
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
+            
+      <div style="font-size: 15px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;">take torns reading paragraphs out loud and answer comprehension questions.</p>
+      </div>
+    
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+      <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+      </div>
+    </div>
+    <!--[if (mso)|(IE)]></td><![endif]-->
+          <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
         </div>
       </div>
       </div>
@@ -4159,28 +4169,22 @@ table, td { color: #000000; } </style>
       
       
     <div class="u-row-container" style="padding: 0px 50px;background-color: transparent">
-      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 700px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
         <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
-          <!--[if (mso)|(IE)
-    ]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-color: transparent;"><![endif
-    ]-->
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: transparent;"><![endif]-->
           
-    <!--[if (mso)|(IE)
-    ]><td align="center" width="692" style="background-color: #10192f;width: 692px;padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif
-    ]-->
-    <div class="u-col u-col-100" style="max-width: 320px;min-width: 700px;display: table-cell;vertical-align: top;">
-      <div style="background-color: #10192f;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-      <!--[if (!mso)&(!IE)
-    ]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif
-    ]-->
+    <!--[if (mso)|(IE)]><td align="center" width="304" style="background-color: #bee8e5;width: 304px;padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 2px solid #0e0b21;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+    <div class="u-col u-col-50" style="max-width: 320px;min-width: 310px;display: table-cell;vertical-align: top;">
+      <div style="background-color: #bee8e5;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+      <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 2px solid #0e0b21;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
       
     <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
       <tbody>
         <tr>
           <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
             
-      <div style="font-size: 16px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
-        <p style="line-height: 140%;"><em>Unit 1 - Week 1 ( 3 or 5 days)</em></p>
+      <div style="font-size: 17px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;"><em>4. Teacher will...</em></p>
       </div>
     
           </td>
@@ -4188,17 +4192,62 @@ table, td { color: #000000; } </style>
       </tbody>
     </table>
     
-      <!--[if (!mso)&(!IE)
-    ]><!--></div><!--<![endif
-    ]-->
+    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
+            
+      <div style="font-size: 15px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;">explain questions on Page 6. Walk around groups asking questions and provide support for students.</p>
+      </div>
+    
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+      <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
       </div>
     </div>
-    <!--[if (mso)|(IE)
-    ]></td><![endif
-    ]-->
-          <!--[if (mso)|(IE)
-    ]></tr></table></td></tr></table><![endif
-    ]-->
+    <!--[if (mso)|(IE)]></td><![endif]-->
+    <!--[if (mso)|(IE)]><td align="center" width="306" style="background-color: #bee8e5;width: 306px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+    <div class="u-col u-col-50" style="max-width: 320px;min-width: 310px;display: table-cell;vertical-align: top;">
+      <div style="background-color: #bee8e5;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+      <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
+      
+    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
+            
+      <div style="font-size: 17px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;"><em>4. Studens will...</em></p>
+      </div>
+    
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
+            
+      <div style="font-size: 15px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;">answer the questions in written form. Once completed, they will discuss their answers with a partner. </p>
+      </div>
+    
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+      <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+      </div>
+    </div>
+    <!--[if (mso)|(IE)]></td><![endif]-->
+          <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
         </div>
       </div>
       </div>
@@ -4208,47 +4257,22 @@ table, td { color: #000000; } </style>
       
       
     <div class="u-row-container" style="padding: 0px 50px;background-color: transparent">
-      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 700px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
         <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
-          <!--[if (mso)|(IE)
-    ]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-color: transparent;"><![endif
-    ]-->
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: transparent;"><![endif]-->
           
-    <!--[if (mso)|(IE)
-    ]><td align="center" width="692" style="background-color: #79a0ac;width: 692px;padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif
-    ]-->
-    <div class="u-col u-col-100" style="max-width: 320px;min-width: 700px;display: table-cell;vertical-align: top;">
-      <div style="background-color: #79a0ac;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-      <!--[if (!mso)&(!IE)
-    ]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif
-    ]-->
+    <!--[if (mso)|(IE)]><td align="center" width="304" style="background-color: #bee8e5;width: 304px;padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 2px solid #0e0b21;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+    <div class="u-col u-col-50" style="max-width: 320px;min-width: 310px;display: table-cell;vertical-align: top;">
+      <div style="background-color: #bee8e5;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+      <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 2px solid #0e0b21;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
       
     <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
       <tbody>
         <tr>
           <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
             
-      <!--[if mso
-    ]><table width="100%"><tr><td><![endif
-    ]-->
-        <h3 style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 400;"><span><span><span><span><span><strong>Content Objectives</strong></span></span></span></span></span></h3>
-      <!--[if mso
-    ]></td></tr></table><![endif
-    ]-->
-    
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-      <tbody>
-        <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:0px 10px 10px;font-family:arial,helvetica,sans-serif;" align="left">
-            
-      <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
-        <p style="line-height: 140%;">1.  Students will be introduced to the role they have in society and </p>
-    <p style="line-height: 140%;">2.  Students will be introduced to the role they have in society and </p>
+      <div style="font-size: 17px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;"><em>5. Teacher will...</em></p>
       </div>
     
           </td>
@@ -4261,29 +4285,8 @@ table, td { color: #000000; } </style>
         <tr>
           <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
             
-      <!--[if mso
-    ]><table width="100%"><tr><td><![endif
-    ]-->
-        <h3 style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 400;"><span><strong>Language Objectives</strong></span></h3>
-      <!--[if mso
-    ]></td></tr></table><![endif
-    ]-->
-    
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-      <tbody>
-        <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
-            
-      <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
-        <p style="line-height: 140%;">1.  <strong>Reading</strong>: Students will be introduced to the role they have in society and </p>
-    <p style="line-height: 140%;">2.  <strong>Writing</strong>: Students will be introduced to the role they have in society and </p>
-    <p style="line-height: 140%;">4.  <strong>Speaking</strong>: Students will be introduced to the role they have in society and </p>
-    <p style="line-height: 140%;">5.  <strong>Listening</strong>: Students will be introduced to the role they have in society and </p>
+      <div style="font-size: 15px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;">assign page 10 on assessment for students to complete on their own, A timer can be added.</p>
       </div>
     
           </td>
@@ -4291,17 +4294,48 @@ table, td { color: #000000; } </style>
       </tbody>
     </table>
     
-      <!--[if (!mso)&(!IE)
-    ]><!--></div><!--<![endif
-    ]-->
+      <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
       </div>
     </div>
-    <!--[if (mso)|(IE)
-    ]></td><![endif
-    ]-->
-          <!--[if (mso)|(IE)
-    ]></tr></table></td></tr></table><![endif
-    ]-->
+    <!--[if (mso)|(IE)]></td><![endif]-->
+    <!--[if (mso)|(IE)]><td align="center" width="306" style="background-color: #bee8e5;width: 306px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+    <div class="u-col u-col-50" style="max-width: 320px;min-width: 310px;display: table-cell;vertical-align: top;">
+      <div style="background-color: #bee8e5;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+      <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
+      
+    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
+            
+      <div style="font-size: 17px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;"><em>5. Studens will...</em></p>
+      </div>
+    
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
+            
+      <div style="font-size: 15px; line-height: 140%; text-align: left; word-wrap: break-word;">
+        <p style="line-height: 140%;">complete assessment on page 10 individually.</p>
+      </div>
+    
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+      <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+      </div>
+    </div>
+    <!--[if (mso)|(IE)]></td><![endif]-->
+          <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
         </div>
       </div>
       </div>
@@ -4311,46 +4345,34 @@ table, td { color: #000000; } </style>
       
       
     <div class="u-row-container" style="padding: 0px 50px;background-color: transparent">
-      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 700px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
         <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
-          <!--[if (mso)|(IE)
-    ]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-color: transparent;"><![endif
-    ]-->
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: transparent;"><![endif]-->
           
-    <!--[if (mso)|(IE)
-    ]><td align="center" width="692" style="background-color: #d0afd1;width: 692px;padding: 0px;border-top: 4px solid #000000;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 4px solid #000000;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif
-    ]-->
-    <div class="u-col u-col-100" style="max-width: 320px;min-width: 700px;display: table-cell;vertical-align: top;">
-      <div style="background-color: #d0afd1;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-      <!--[if (!mso)&(!IE)
-    ]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 4px solid #000000;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 4px solid #000000;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif
-    ]-->
+    <!--[if (mso)|(IE)]><td align="center" width="620" style="background-color: #262350;width: 620px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+    <div class="u-col u-col-100" style="max-width: 320px;min-width: 620px;display: table-cell;vertical-align: top;">
+      <div style="background-color: #262350;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+      <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
       
     <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
       <tbody>
         <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
+          <td style="overflow-wrap:break-word;word-break:break-word;padding:6px;font-family:arial,helvetica,sans-serif;" align="left">
             
-      <div style="font-size: 18px; line-height: 140%; text-align: center; word-wrap: break-word;">
-        <p style="line-height: 140%;"><em>Can-Do Statements</em></p>
-      </div>
+      <!--[if mso]><table width="100%"><tr><td><![endif]-->
+        <h1 style="margin: 0px; color: #ffffff; line-height: 150%; text-align: center; word-wrap: break-word; font-family: inherit; font-size: 20px; font-weight: 400;"><span><span><span><span><span><span style="line-height: 30px;"><span style="line-height: 30px;"><span style="line-height: 30px;"><em>Exit Ticket</em></span></span></span></span></span></span></span></span></h1>
+      <!--[if mso]></td></tr></table><![endif]-->
     
           </td>
         </tr>
       </tbody>
     </table>
     
-      <!--[if (!mso)&(!IE)
-    ]><!--></div><!--<![endif
-    ]-->
+      <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
       </div>
     </div>
-    <!--[if (mso)|(IE)
-    ]></td><![endif
-    ]-->
-          <!--[if (mso)|(IE)
-    ]></tr></table></td></tr></table><![endif
-    ]-->
+    <!--[if (mso)|(IE)]></td><![endif]-->
+          <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
         </div>
       </div>
       </div>
@@ -4360,20 +4382,14 @@ table, td { color: #000000; } </style>
       
       
     <div class="u-row-container" style="padding: 0px 50px;background-color: transparent">
-      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 700px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
         <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
-          <!--[if (mso)|(IE)
-    ]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-color: transparent;"><![endif
-    ]-->
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: transparent;"><![endif]-->
           
-    <!--[if (mso)|(IE)
-    ]><td align="center" width="225" style="background-color: #d0afd1;width: 225px;padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 4px solid #000000;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif
-    ]-->
-    <div class="u-col u-col-33p33" style="max-width: 320px;min-width: 233.33px;display: table-cell;vertical-align: top;">
-      <div style="background-color: #d0afd1;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-      <!--[if (!mso)&(!IE)
-    ]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 4px solid #000000;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif
-    ]-->
+    <!--[if (mso)|(IE)]><td align="center" width="612" style="background-color: #b5eed0;width: 612px;padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+    <div class="u-col u-col-100" style="max-width: 320px;min-width: 620px;display: table-cell;vertical-align: top;">
+      <div style="background-color: #b5eed0;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+      <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
       
     <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
       <tbody>
@@ -4381,141 +4397,9 @@ table, td { color: #000000; } </style>
           <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
             
       <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
-        <p style="line-height: 140%;">This is a new Text block. Change the text.</p>
-      </div>
-    
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
-      <!--[if (!mso)&(!IE)
-    ]><!--></div><!--<![endif
-    ]-->
-      </div>
-    </div>
-    <!--[if (mso)|(IE)
-    ]></td><![endif
-    ]-->
-    <!--[if (mso)|(IE)
-    ]><td align="center" width="229" style="background-color: #d0afd1;width: 229px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 4px solid #000000;border-bottom: 4px solid #000000;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif
-    ]-->
-    <div class="u-col u-col-33p33" style="max-width: 320px;min-width: 233.33px;display: table-cell;vertical-align: top;">
-      <div style="background-color: #d0afd1;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-      <!--[if (!mso)&(!IE)
-    ]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 4px solid #000000;border-bottom: 4px solid #000000;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif
-    ]-->
-      
-    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-      <tbody>
-        <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
-            
-      <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
-        <p style="line-height: 140%;">This is a new Text block. Change the text.</p>
-      </div>
-    
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
-      <!--[if (!mso)&(!IE)
-    ]><!--></div><!--<![endif
-    ]-->
-      </div>
-    </div>
-    <!--[if (mso)|(IE)
-    ]></td><![endif
-    ]-->
-    <!--[if (mso)|(IE)
-    ]><td align="center" width="229" style="background-color: #d0afd1;width: 229px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 4px solid #000000;border-bottom: 4px solid #000000;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif
-    ]-->
-    <div class="u-col u-col-33p33" style="max-width: 320px;min-width: 233.33px;display: table-cell;vertical-align: top;">
-      <div style="background-color: #d0afd1;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-      <!--[if (!mso)&(!IE)
-    ]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 4px solid #000000;border-bottom: 4px solid #000000;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif
-    ]-->
-      
-    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-      <tbody>
-        <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
-            
-      <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
-        <p style="line-height: 140%;">This is a new Text block. Change the text.</p>
-      </div>
-    
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
-      <!--[if (!mso)&(!IE)
-    ]><!--></div><!--<![endif
-    ]-->
-      </div>
-    </div>
-    <!--[if (mso)|(IE)
-    ]></td><![endif
-    ]-->
-          <!--[if (mso)|(IE)
-    ]></tr></table></td></tr></table><![endif
-    ]-->
-        </div>
-      </div>
-      </div>
-      
-    
-    
-      
-      
-    <div class="u-row-container" style="padding: 0px 50px;background-color: transparent">
-      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 700px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
-        <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
-          <!--[if (mso)|(IE)
-    ]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-color: transparent;"><![endif
-    ]-->
-          
-    <!--[if (mso)|(IE)
-    ]><td align="center" width="692" style="background-color: #79a0ac;width: 692px;padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif
-    ]-->
-    <div class="u-col u-col-100" style="max-width: 320px;min-width: 700px;display: table-cell;vertical-align: top;">
-      <div style="background-color: #79a0ac;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-      <!--[if (!mso)&(!IE)
-    ]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif
-    ]-->
-      
-    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-      <tbody>
-        <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:0px;font-family:arial,helvetica,sans-serif;" align="left">
-            
-      <!--[if mso
-    ]><table width="100%"><tr><td><![endif
-    ]-->
-        <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><span><strong>ACFTL STANDARDS<br /><sup>Language Connects</sup></strong></span></h1>
-      <!--[if mso
-    ]></td></tr></table><![endif
-    ]-->
-    
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-      <tbody>
-        <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
-            
-      <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
-        <p style="line-height: 140%;">The Following Standards are met by:</p>
+        <p style="line-height: 140%;">To check for understanding of the lesson, have students complete this exits slip in one of the various form: write their answer on a sheet of paper and turn it in to you, share their response with a classmate, or share their response with the class.</p>
     <p style="line-height: 140%;"> </p>
-    <p style="line-height: 140%;"><strong>IR: </strong>identify<strong> </strong>the main idea and its supporting details</p>
-    <p style="line-height: 140%;"><strong>AIDP: </strong>identify the main idea and its supporting details</p>
-    <p style="line-height: 140%;"><strong>MC: </strong>identify the main idea and its supporting details</p>
-    <p style="line-height: 140%;"><strong>IC: </strong>identify the main idea and its supporting details</p>
+    <p style="line-height: 140%;">¿Qué es una tradición que ha cambiado con el transcurso del tiempo y las familias?</p>
       </div>
     
           </td>
@@ -4523,111 +4407,65 @@ table, td { color: #000000; } </style>
       </tbody>
     </table>
     
-    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-      <tbody>
-        <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:0px;font-family:arial,helvetica,sans-serif;" align="left">
-            
-      <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 3px solid #1e2a60;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
-        <tbody>
-          <tr style="vertical-align: top">
-            <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
-              <span>&#160;</span>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-      <tbody>
-        <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
-            
-      <!--[if mso
-    ]><table width="100%"><tr><td><![endif
-    ]-->
-        <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><span>Heading</span></h1>
-      <!--[if mso
-    ]></td></tr></table><![endif
-    ]-->
-    
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-      <tbody>
-        <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
-            
-      <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
-        <p style="line-height: 140%;">This is a new Text block. Change the text.</p>
-      </div>
-    
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-      <tbody>
-        <tr>
-          <td style="overflow-wrap:break-word;word-break:break-word;padding:0px;font-family:arial,helvetica,sans-serif;" align="left">
-            
-      <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 40px solid #152241;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
-        <tbody>
-          <tr style="vertical-align: top">
-            <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
-              <span>&#160;</span>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    
-      <!--[if (!mso)&(!IE)
-    ]><!--></div><!--<![endif
-    ]-->
+      <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
       </div>
     </div>
-    <!--[if (mso)|(IE)
-    ]></td><![endif
-    ]-->
-          <!--[if (mso)|(IE)
-    ]></tr></table></td></tr></table><![endif
-    ]-->
+    <!--[if (mso)|(IE)]></td><![endif]-->
+          <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
         </div>
       </div>
       </div>
       
     
     
-        <!--[if (mso)|(IE)
-    ]></td></tr></table><![endif
-    ]-->
+      
+      
+    <div class="u-row-container" style="padding: 0px 50px;background-color: transparent">
+      <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 620px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+        <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px 50px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:620px;"><tr style="background-color: transparent;"><![endif]-->
+          
+    <!--[if (mso)|(IE)]><td align="center" width="612" style="background-color: #242c6b;width: 612px;padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+    <div class="u-col u-col-100" style="max-width: 320px;min-width: 620px;display: table-cell;vertical-align: top;">
+      <div style="background-color: #242c6b;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+      <!--[if (!mso)&(!IE)]><!--><div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 4px solid #000000;border-right: 4px solid #000000;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
+      
+    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+      <tbody>
+        <tr>
+          <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:arial,helvetica,sans-serif;" align="left">
+            
+      <div style="font-size: 12px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
+        <p style="line-height: 140%;">All rights reserved. Reproduction is prohibited total<br />or partial of this work, by any means or procedure, including <br />reprography and computer processing photocopying, or recording,<br />without the prior written authorization of <br />@One Way Education, LLC.</p>
+      </div>
+    
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+      <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+      </div>
+    </div>
+    <!--[if (mso)|(IE)]></td><![endif]-->
+          <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+        </div>
+      </div>
+      </div>
+      
+    
+    
+        <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
         </td>
       </tr>
       </tbody>
       </table>
-      <!--[if mso
-    ]></div><![endif
-    ]-->
-      <!--[if IE
-    ]></div><![endif
-    ]-->
+      <!--[if mso]></div><![endif]-->
+      <!--[if IE]></div><![endif]-->
     </body>
     
     </html>
+    
     ` ?? "")
   },
 ]
