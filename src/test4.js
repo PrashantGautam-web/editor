@@ -1,4 +1,4 @@
-const jsonData = {
+const jsondata = {
     "counters": {
         "u_column": 9,
         "u_row": 7,
@@ -27,10 +27,11 @@ const jsonData = {
                                     "anchor": "",
                                     "headingType": "h1",
                                     "fontFamily": {
-                                        "label": "Global Font",
-                                        "value": "inherit"
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
                                     },
-                                    "fontSize": "19px",
+                                    "fontSize": "18px",
                                     "color": "#ffffff",
                                     "textAlign": "center",
                                     "lineHeight": "140%",
@@ -52,7 +53,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<span><strong>Lesson plan 1  |  Anécdotas 1</strong></span>",
+                                    "text": "<span><span><span><span><strong>Lesson plan 1  |  Anécdotas 1</strong></span></span></span></span>",
                                     "_override": {
                                         "mobile": {
                                             "fontSize": "15px"
@@ -120,11 +121,12 @@ const jsonData = {
                                     "anchor": "",
                                     "headingType": "h1",
                                     "fontFamily": {
-                                        "label": "Helvetica",
-                                        "value": "helvetica,sans-serif"
+                                        "label": "League Spartan",
+                                        "value": "'League Spartan', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap"
                                     },
                                     "fontWeight": 700,
-                                    "fontSize": "14px",
+                                    "fontSize": "16px",
                                     "color": "#2f2873",
                                     "textAlign": "center",
                                     "lineHeight": "140%",
@@ -146,7 +148,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<span><span><span><span><span><span><span><strong>LAS FAMILIAS Y<br />SU ENLANCE EN LA SOCIEDAD</strong></span></span></span></span></span></span></span>",
+                                    "text": "<span><span><span><span><span><span><span><span><span><span><strong>LAS FAMILIAS Y<br />SU ENLANCE EN LA SOCIEDAD</strong></span></span></span></span></span></span></span></span></span></span>",
                                     "_override": {
                                         "mobile": {
                                             "fontSize": "11px"
@@ -227,10 +229,11 @@ const jsonData = {
                                     "containerPadding": "9px",
                                     "anchor": "",
                                     "fontFamily": {
-                                        "label": "Book Antiqua",
-                                        "value": "book antiqua,palatino"
+                                        "label": "Libre Baskerville",
+                                        "value": "'Libre Baskerville', serif",
+                                        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
                                     },
-                                    "fontSize": "14px",
+                                    "fontSize": "12px",
                                     "color": "#ffffff",
                                     "textAlign": "center",
                                     "lineHeight": "140%",
@@ -333,7 +336,12 @@ const jsonData = {
                                     "containerPadding": "10px",
                                     "anchor": "",
                                     "headingType": "h2",
-                                    "fontSize": "14px",
+                                    "fontFamily": {
+                                        "label": "League Spartan",
+                                        "value": "'League Spartan', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap"
+                                    },
+                                    "fontSize": "12px",
                                     "textAlign": "left",
                                     "lineHeight": "60%",
                                     "linkStyle": {
@@ -354,7 +362,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<span><span style=\"line-height: 8.4px;\"><span style=\"line-height: 8.4px;\"><span style=\"line-height: 8.4px;\"><span style=\"line-height: 8.4px;\"><span style=\"line-height: 8.4px;\"><span style=\"line-height: 8.4px;\"><strong>Content Objectives ✏️</strong></span></span></span></span></span></span></span>",
+                                    "text": "<span><span><span><span style=\"line-height: 8.4px;\"><span style=\"line-height: 8.4px;\"><span style=\"line-height: 8.4px;\"><span style=\"line-height: 8.4px;\"><span style=\"line-height: 8.4px;\"><span style=\"line-height: 8.4px;\"><strong>Content Objectives ✏️</strong></span></span></span></span></span></span></span></span></span>",
                                     "_override": {
                                         "mobile": {
                                             "fontSize": "12px"
@@ -368,7 +376,12 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "0px 10px 10px",
                                     "anchor": "",
-                                    "fontSize": "11px",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "10px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -404,7 +417,12 @@ const jsonData = {
                                     "containerPadding": "10px",
                                     "anchor": "",
                                     "headingType": "h2",
-                                    "fontSize": "14px",
+                                    "fontFamily": {
+                                        "label": "League Spartan",
+                                        "value": "'League Spartan', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap"
+                                    },
+                                    "fontSize": "12px",
                                     "textAlign": "left",
                                     "lineHeight": "50%",
                                     "linkStyle": {
@@ -425,7 +443,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<span><span style=\"line-height: 7px;\"><span style=\"line-height: 7px;\"><span style=\"line-height: 7px;\"><span style=\"line-height: 7px;\"><span style=\"line-height: 7px;\"><span style=\"line-height: 7px;\"><strong>Language Objectives 🔈</strong></span></span></span></span></span></span></span>",
+                                    "text": "<span><span><span style=\"line-height: 7px;\"><span style=\"line-height: 7px;\"><span style=\"line-height: 7px;\"><span style=\"line-height: 7px;\"><span style=\"line-height: 7px;\"><span style=\"line-height: 7px;\"><strong>Language Objectives 🔈</strong></span></span></span></span></span></span></span></span>",
                                     "_override": {
                                         "mobile": {
                                             "fontSize": "11px"
@@ -439,7 +457,12 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "0px 10px 10px",
                                     "anchor": "",
-                                    "fontSize": "11px",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "10px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -541,11 +564,12 @@ const jsonData = {
                                     "containerPadding": "9px",
                                     "anchor": "",
                                     "fontFamily": {
-                                        "label": "Georgia",
-                                        "value": "georgia,palatino"
+                                        "label": "Libre Baskerville",
+                                        "value": "'Libre Baskerville', serif",
+                                        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
                                     },
                                     "fontWeight": 400,
-                                    "fontSize": "14px",
+                                    "fontSize": "11px",
                                     "textAlign": "center",
                                     "lineHeight": "60%",
                                     "linkStyle": {
@@ -648,7 +672,12 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
-                                    "fontSize": "9px",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "10px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -724,7 +753,12 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
-                                    "fontSize": "9px",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "10px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -800,7 +834,12 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
-                                    "fontSize": "9px",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "10px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -897,7 +936,12 @@ const jsonData = {
                                     "containerPadding": "10px 10px 0px",
                                     "anchor": "",
                                     "headingType": "h1",
-                                    "fontSize": "19px",
+                                    "fontFamily": {
+                                        "label": "League Spartan",
+                                        "value": "'League Spartan', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap"
+                                    },
+                                    "fontSize": "16px",
                                     "textAlign": "center",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -918,7 +962,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<span><span><span><span><span><span><strong>ACFTL STANDARDS<br /></strong></span></span></span></span></span></span>",
+                                    "text": "<span><span><span><span><span><span><span><strong>ACFTL STANDARDS<br /></strong></span></span></span></span></span></span></span>",
                                     "_override": {
                                         "mobile": {
                                             "fontSize": "12px"
@@ -934,10 +978,11 @@ const jsonData = {
                                     "anchor": "",
                                     "headingType": "h3",
                                     "fontFamily": {
-                                        "label": "Times New Roman",
-                                        "value": "times new roman,times"
+                                        "label": "League Spartan",
+                                        "value": "'League Spartan', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap"
                                     },
-                                    "fontSize": "15px",
+                                    "fontSize": "12px",
                                     "textAlign": "center",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -958,7 +1003,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<span><span><span><span><span><span><strong>Language Connects</strong></span></span></span></span></span></span>",
+                                    "text": "<span><span><span><span><span><span><span><strong>Language Connects</strong></span></span></span></span></span></span></span>",
                                     "_override": {
                                         "mobile": {
                                             "fontSize": "12px"
@@ -972,7 +1017,12 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
-                                    "fontSize": "11px",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "10px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -1034,7 +1084,12 @@ const jsonData = {
                                     "containerPadding": "10px 10px 0px",
                                     "anchor": "",
                                     "headingType": "h1",
-                                    "fontSize": "19px",
+                                    "fontFamily": {
+                                        "label": "League Spartan",
+                                        "value": "'League Spartan', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap"
+                                    },
+                                    "fontSize": "16px",
                                     "textAlign": "center",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -1055,7 +1110,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<span><span><span><span><span><span><span><strong>COMMON CORE STATE STANDARDS</strong></span></span></span></span></span></span></span>",
+                                    "text": "<span><span><span><span><span><span><span><span><strong>COMMON CORE STATE STANDARDS</strong></span></span></span></span></span></span></span></span>",
                                     "_override": {
                                         "mobile": {
                                             "fontSize": "12px"
@@ -1070,7 +1125,12 @@ const jsonData = {
                                     "containerPadding": "0px 10px 10px",
                                     "anchor": "",
                                     "headingType": "h1",
-                                    "fontSize": "16px",
+                                    "fontFamily": {
+                                        "label": "League Spartan",
+                                        "value": "'League Spartan', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap"
+                                    },
+                                    "fontSize": "12px",
                                     "textAlign": "center",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -1091,7 +1151,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<span><span><span><span><span><span><span><span><span><span><strong>Language Connects</strong></span></span></span></span></span></span></span></span></span></span>",
+                                    "text": "<span><span><span><span><span><span><span><span><span><span><span><strong>Language Connects</strong></span></span></span></span></span></span></span></span></span></span></span>",
                                     "_override": {
                                         "mobile": {
                                             "fontSize": "12px"
@@ -1105,7 +1165,12 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
-                                    "fontSize": "11px",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "10px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -1277,5 +1342,6 @@ const jsonData = {
     },
     "schemaVersion": 16
 }
-const jsonString = JSON.stringify(jsonData);
+
+const jsonString = JSON.stringify(jsondata);
 export default jsonString

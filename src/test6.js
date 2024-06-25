@@ -1,9 +1,9 @@
 const jsonData = {
     "counters": {
-        "u_column": 11,
-        "u_row": 9,
+        "u_column": 16,
+        "u_row": 13,
         "u_content_heading": 7,
-        "u_content_text": 10,
+        "u_content_text": 17,
         "u_content_menu": 1,
         "u_content_divider": 1
     },
@@ -26,7 +26,12 @@ const jsonData = {
                                     "containerPadding": "10px",
                                     "anchor": "",
                                     "headingType": "h1",
-                                    "fontSize": "22px",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "18px",
                                     "color": "#ffffff",
                                     "textAlign": "center",
                                     "lineHeight": "140%",
@@ -48,17 +53,12 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<span><span><span><span><br /><strong>Planificando juntos | Anécdotas 1</strong></span></span></span></span>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "13px"
-                                        }
-                                    }
+                                    "text": "<span><span><span><br /><strong>Planificando juntos | Anécdotas 1</strong></span></span></span>"
                                 }
                             }
                         ],
                         "values": {
-                            "backgroundColor": "#0d2858",
+                            "backgroundColor": "#242c6b",
                             "padding": "0px",
                             "border": {},
                             "borderRadius": "0px",
@@ -72,7 +72,7 @@ const jsonData = {
                 "values": {
                     "displayCondition": null,
                     "columns": false,
-                    "backgroundColor": "#0d2858",
+                    "backgroundColor": "",
                     "columnsBackgroundColor": "",
                     "backgroundImage": {
                         "url": "",
@@ -100,491 +100,6 @@ const jsonData = {
                 }
             },
             {
-                "id": "WXTw6y10LU",
-                "cells": [
-                    1
-                ],
-                "columns": [
-                    {
-                        "id": "SC2hsZG-ec",
-                        "contents": [
-                            {
-                                "id": "Vhdda4ffDE",
-                                "type": "heading",
-                                "values": {
-                                    "containerPadding": "10px",
-                                    "anchor": "",
-                                    "headingType": "h1",
-                                    "fontWeight": 700,
-                                    "fontSize": "18px",
-                                    "color": "#2d3782",
-                                    "textAlign": "center",
-                                    "lineHeight": "140%",
-                                    "linkStyle": {
-                                        "inherit": true,
-                                        "linkColor": "#0000ee",
-                                        "linkHoverColor": "#0000ee",
-                                        "linkUnderline": true,
-                                        "linkHoverUnderline": true
-                                    },
-                                    "hideDesktop": false,
-                                    "displayCondition": null,
-                                    "_meta": {
-                                        "htmlID": "u_content_heading_2",
-                                        "htmlClassNames": "u_content_heading"
-                                    },
-                                    "selectable": true,
-                                    "draggable": true,
-                                    "duplicatable": true,
-                                    "deletable": true,
-                                    "hideable": true,
-                                    "text": "<span><span><span><strong>Lesson plan 1</strong></span></span></span>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "12px"
-                                        }
-                                    }
-                                }
-                            }
-                        ],
-                        "values": {
-                            "backgroundColor": "#dff5fd",
-                            "padding": "0px",
-                            "border": {
-                                "borderTopWidth": "0px",
-                                "borderTopStyle": "solid",
-                                "borderTopColor": "#CCC",
-                                "borderLeftWidth": "2px",
-                                "borderLeftStyle": "solid",
-                                "borderLeftColor": "#000000",
-                                "borderRightWidth": "2px",
-                                "borderRightStyle": "solid",
-                                "borderRightColor": "#000000",
-                                "borderBottomWidth": "0px",
-                                "borderBottomStyle": "solid",
-                                "borderBottomColor": "#CCC"
-                            },
-                            "borderRadius": "0px",
-                            "_meta": {
-                                "htmlID": "u_column_2",
-                                "htmlClassNames": "u_column"
-                            }
-                        }
-                    }
-                ],
-                "values": {
-                    "displayCondition": null,
-                    "columns": false,
-                    "backgroundColor": "",
-                    "columnsBackgroundColor": "",
-                    "backgroundImage": {
-                        "url": "",
-                        "fullWidth": true,
-                        "repeat": "no-repeat",
-                        "size": "custom",
-                        "position": "center"
-                    },
-                    "padding": "0px 50px",
-                    "anchor": "",
-                    "hideDesktop": false,
-                    "_meta": {
-                        "htmlID": "u_row_2",
-                        "htmlClassNames": "u_row"
-                    },
-                    "selectable": true,
-                    "draggable": true,
-                    "duplicatable": true,
-                    "deletable": true,
-                    "hideable": true,
-                    "_override": {
-                        "mobile": {
-                            "padding": "0px"
-                        }
-                    }
-                }
-            },
-            {
-                "id": "0BWyruWusJ",
-                "cells": [
-                    1
-                ],
-                "columns": [
-                    {
-                        "id": "peBtxVZzNq",
-                        "contents": [
-                            {
-                                "id": "Rx_1kJc8cG",
-                                "type": "heading",
-                                "values": {
-                                    "containerPadding": "6px",
-                                    "anchor": "",
-                                    "headingType": "h1",
-                                    "fontFamily": {
-                                        "label": "Times New Roman",
-                                        "value": "times new roman,times"
-                                    },
-                                    "fontSize": "17px",
-                                    "color": "#ffffff",
-                                    "textAlign": "center",
-                                    "lineHeight": "150%",
-                                    "linkStyle": {
-                                        "inherit": true,
-                                        "linkColor": "#0000ee",
-                                        "linkHoverColor": "#0000ee",
-                                        "linkUnderline": true,
-                                        "linkHoverUnderline": true
-                                    },
-                                    "hideDesktop": false,
-                                    "displayCondition": null,
-                                    "_meta": {
-                                        "htmlID": "u_content_heading_3",
-                                        "htmlClassNames": "u_content_heading"
-                                    },
-                                    "selectable": true,
-                                    "draggable": true,
-                                    "duplicatable": true,
-                                    "deletable": true,
-                                    "hideable": true,
-                                    "text": "<p class=\"p1\"><em>Materials</em></p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "14px"
-                                        }
-                                    }
-                                }
-                            }
-                        ],
-                        "values": {
-                            "backgroundColor": "#262350",
-                            "padding": "0px",
-                            "border": {
-                                "borderTopWidth": "0px",
-                                "borderTopStyle": "solid",
-                                "borderTopColor": "#CCC",
-                                "borderLeftWidth": "2px",
-                                "borderLeftStyle": "solid",
-                                "borderLeftColor": "#000000",
-                                "borderRightWidth": "2px",
-                                "borderRightStyle": "solid",
-                                "borderRightColor": "#000000",
-                                "borderBottomWidth": "0px",
-                                "borderBottomStyle": "solid",
-                                "borderBottomColor": "#CCC"
-                            },
-                            "borderRadius": "0px",
-                            "_meta": {
-                                "htmlID": "u_column_3",
-                                "htmlClassNames": "u_column"
-                            }
-                        }
-                    }
-                ],
-                "values": {
-                    "displayCondition": null,
-                    "columns": false,
-                    "backgroundColor": "",
-                    "columnsBackgroundColor": "",
-                    "backgroundImage": {
-                        "url": "",
-                        "fullWidth": true,
-                        "repeat": "no-repeat",
-                        "size": "custom",
-                        "position": "center"
-                    },
-                    "padding": "0px 50px",
-                    "anchor": "",
-                    "hideDesktop": false,
-                    "_meta": {
-                        "htmlID": "u_row_3",
-                        "htmlClassNames": "u_row"
-                    },
-                    "selectable": true,
-                    "draggable": true,
-                    "duplicatable": true,
-                    "deletable": true,
-                    "hideable": true,
-                    "_override": {
-                        "mobile": {
-                            "padding": "0px"
-                        }
-                    }
-                }
-            },
-            {
-                "id": "If30yemxYI",
-                "cells": [
-                    1
-                ],
-                "columns": [
-                    {
-                        "id": "ngtKZZkPLE",
-                        "contents": [
-                            {
-                                "id": "WBQAGq6dwh",
-                                "type": "text",
-                                "values": {
-                                    "containerPadding": "10px",
-                                    "anchor": "",
-                                    "fontSize": "14px",
-                                    "textAlign": "left",
-                                    "lineHeight": "140%",
-                                    "linkStyle": {
-                                        "inherit": true,
-                                        "linkColor": "#0000ee",
-                                        "linkHoverColor": "#0000ee",
-                                        "linkUnderline": true,
-                                        "linkHoverUnderline": true
-                                    },
-                                    "hideDesktop": false,
-                                    "displayCondition": null,
-                                    "_meta": {
-                                        "htmlID": "u_content_text_1",
-                                        "htmlClassNames": "u_content_text"
-                                    },
-                                    "selectable": true,
-                                    "draggable": true,
-                                    "duplicatable": true,
-                                    "deletable": true,
-                                    "hideable": true,
-                                    "text": "<p style=\"line-height: 140%;\">1. Anécdotas 1 textbook pages 3-6</p>\n<p style=\"line-height: 140%;\">2. Assessment 1 page 10</p>\n<p style=\"line-height: 140%;\"> </p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "12px"
-                                        }
-                                    }
-                                }
-                            }
-                        ],
-                        "values": {
-                            "backgroundColor": "#f3e9fd",
-                            "padding": "0px",
-                            "border": {
-                                "borderTopWidth": "0px",
-                                "borderTopStyle": "solid",
-                                "borderTopColor": "#CCC",
-                                "borderLeftWidth": "2px",
-                                "borderLeftStyle": "solid",
-                                "borderLeftColor": "#000000",
-                                "borderRightWidth": "2px",
-                                "borderRightStyle": "solid",
-                                "borderRightColor": "#000000",
-                                "borderBottomWidth": "2px",
-                                "borderBottomStyle": "solid",
-                                "borderBottomColor": "#000000"
-                            },
-                            "borderRadius": "0px",
-                            "_meta": {
-                                "htmlID": "u_column_4",
-                                "htmlClassNames": "u_column"
-                            }
-                        }
-                    }
-                ],
-                "values": {
-                    "displayCondition": null,
-                    "columns": false,
-                    "backgroundColor": "",
-                    "columnsBackgroundColor": "",
-                    "backgroundImage": {
-                        "url": "",
-                        "fullWidth": true,
-                        "repeat": "no-repeat",
-                        "size": "custom",
-                        "position": "center"
-                    },
-                    "padding": "0px 50px",
-                    "anchor": "",
-                    "hideDesktop": false,
-                    "_meta": {
-                        "htmlID": "u_row_4",
-                        "htmlClassNames": "u_row"
-                    },
-                    "selectable": true,
-                    "draggable": true,
-                    "duplicatable": true,
-                    "deletable": true,
-                    "hideable": true,
-                    "_override": {
-                        "mobile": {
-                            "padding": "0px"
-                        }
-                    }
-                }
-            },
-            {
-                "id": "Dd1WKslfME",
-                "cells": [
-                    1
-                ],
-                "columns": [
-                    {
-                        "id": "n58vIWY2j_",
-                        "contents": [
-                            {
-                                "id": "UlaSKz31dd",
-                                "type": "heading",
-                                "values": {
-                                    "containerPadding": "10px 10px 0px",
-                                    "anchor": "",
-                                    "headingType": "h1",
-                                    "fontSize": "18px",
-                                    "textAlign": "center",
-                                    "lineHeight": "140%",
-                                    "linkStyle": {
-                                        "inherit": true,
-                                        "linkColor": "#0000ee",
-                                        "linkHoverColor": "#0000ee",
-                                        "linkUnderline": true,
-                                        "linkHoverUnderline": true
-                                    },
-                                    "hideDesktop": false,
-                                    "displayCondition": null,
-                                    "_meta": {
-                                        "htmlID": "u_content_heading_5",
-                                        "htmlClassNames": "u_content_heading"
-                                    },
-                                    "selectable": true,
-                                    "draggable": true,
-                                    "duplicatable": true,
-                                    "deletable": true,
-                                    "hideable": true,
-                                    "text": "<span><span><span><strong>Sequence</strong><br /></span></span></span>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "14px"
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "id": "-uuJrLMJux",
-                                "type": "heading",
-                                "values": {
-                                    "containerPadding": "0px 10px 10px",
-                                    "anchor": "",
-                                    "headingType": "h1",
-                                    "fontSize": "15px",
-                                    "textAlign": "center",
-                                    "lineHeight": "140%",
-                                    "linkStyle": {
-                                        "inherit": true,
-                                        "linkColor": "#0000ee",
-                                        "linkHoverColor": "#0000ee",
-                                        "linkUnderline": true,
-                                        "linkHoverUnderline": true
-                                    },
-                                    "hideDesktop": false,
-                                    "displayCondition": null,
-                                    "_meta": {
-                                        "htmlID": "u_content_heading_6",
-                                        "htmlClassNames": "u_content_heading"
-                                    },
-                                    "selectable": true,
-                                    "draggable": true,
-                                    "duplicatable": true,
-                                    "deletable": true,
-                                    "hideable": true,
-                                    "text": "<span><span><strong>Day One</strong></span></span>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "12px"
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "id": "41xxtxrhcH",
-                                "type": "text",
-                                "values": {
-                                    "containerPadding": "10px",
-                                    "anchor": "",
-                                    "fontSize": "12px",
-                                    "textAlign": "left",
-                                    "lineHeight": "210%",
-                                    "linkStyle": {
-                                        "inherit": true,
-                                        "linkColor": "#0000ee",
-                                        "linkHoverColor": "#0000ee",
-                                        "linkUnderline": true,
-                                        "linkHoverUnderline": true
-                                    },
-                                    "hideDesktop": false,
-                                    "displayCondition": null,
-                                    "_meta": {
-                                        "htmlID": "u_content_text_2",
-                                        "htmlClassNames": "u_content_text"
-                                    },
-                                    "selectable": true,
-                                    "draggable": true,
-                                    "duplicatable": true,
-                                    "deletable": true,
-                                    "hideable": true,
-                                    "text": "<p style=\"line-height: 210%;\"><em>Essential Questions:</em></p>\n<p style=\"line-height: 210%;\"><em>1. ¿Qué rol tiene la familia en la sociedad?</em></p>\n<p style=\"line-height: 210%;\"><em>2. ¿Qué cambios han tenido las familias en los últimos 40 años?</em></p>\n<p style=\"line-height: 210%;\"><em>3. ¿Cómo daña la tecnología a la sociedad?</em></p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "9px"
-                                        }
-                                    }
-                                }
-                            }
-                        ],
-                        "values": {
-                            "backgroundColor": "#e9fdf4",
-                            "padding": "0px",
-                            "border": {
-                                "borderTopWidth": "0px",
-                                "borderTopStyle": "solid",
-                                "borderTopColor": "#CCC",
-                                "borderLeftWidth": "2px",
-                                "borderLeftStyle": "solid",
-                                "borderLeftColor": "#000000",
-                                "borderRightWidth": "2px",
-                                "borderRightStyle": "solid",
-                                "borderRightColor": "#000000",
-                                "borderBottomWidth": "2px",
-                                "borderBottomStyle": "solid",
-                                "borderBottomColor": "#000000"
-                            },
-                            "borderRadius": "0px",
-                            "_meta": {
-                                "htmlID": "u_column_5",
-                                "htmlClassNames": "u_column"
-                            }
-                        }
-                    }
-                ],
-                "values": {
-                    "displayCondition": null,
-                    "columns": false,
-                    "backgroundColor": "",
-                    "columnsBackgroundColor": "",
-                    "backgroundImage": {
-                        "url": "",
-                        "fullWidth": true,
-                        "repeat": "no-repeat",
-                        "size": "custom",
-                        "position": "center"
-                    },
-                    "padding": "0px 50px",
-                    "anchor": "",
-                    "hideDesktop": false,
-                    "_meta": {
-                        "htmlID": "u_row_5",
-                        "htmlClassNames": "u_row"
-                    },
-                    "selectable": true,
-                    "draggable": true,
-                    "duplicatable": true,
-                    "deletable": true,
-                    "hideable": true,
-                    "_override": {
-                        "mobile": {
-                            "padding": "0px"
-                        }
-                    }
-                }
-            },
-            {
                 "id": "_P2TpiCy68",
                 "cells": [
                     1,
@@ -600,7 +115,12 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
-                                    "fontSize": "16px",
+                                    "fontFamily": {
+                                        "label": "Libre Baskerville",
+                                        "value": "'Libre Baskerville', serif",
+                                        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
+                                    },
+                                    "fontSize": "12px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -621,12 +141,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<p style=\"line-height: 140%;\"><em>1. Teacher will...</em></p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "12px"
-                                        }
-                                    }
+                                    "text": "<p style=\"line-height: 140%;\"><em>3. Teacher will...</em></p>"
                                 }
                             },
                             {
@@ -635,9 +150,14 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
-                                    "fontSize": "11px",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "12px",
                                     "textAlign": "left",
-                                    "lineHeight": "140%",
+                                    "lineHeight": "160%",
                                     "linkStyle": {
                                         "inherit": true,
                                         "linkColor": "#0000ee",
@@ -656,12 +176,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<p style=\"line-height: 140%;\">Warm-up:</p>\n<p style=\"line-height: 140%;\">show the image on page 1. Ask students to share with a partner how the image relates to a family.</p>\n<p style=\"line-height: 140%;\">Teacher may ask: <em>¿Qué ves en la imagen?</em></p>\n<p style=\"line-height: 140%;\"><em>¿Qué conexión tiene la imagen con el título?</em></p>\n<p style=\"line-height: 140%;\"> </p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "9px"
-                                        }
-                                    }
+                                    "text": "<p style=\"line-height: 160%;\">facilitate popcorn reading for pages 3-5 in the textbook. Ask questions in between paragraphs to check for understanding.</p>\n<p style=\"line-height: 160%;\"> </p>"
                                 }
                             }
                         ],
@@ -672,7 +187,7 @@ const jsonData = {
                                 "borderTopWidth": "0px",
                                 "borderTopStyle": "solid",
                                 "borderTopColor": "#CCC",
-                                "borderLeftWidth": "2px",
+                                "borderLeftWidth": "4px",
                                 "borderLeftStyle": "solid",
                                 "borderLeftColor": "#000000",
                                 "borderRightWidth": "2px",
@@ -698,7 +213,12 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
-                                    "fontSize": "16px",
+                                    "fontFamily": {
+                                        "label": "Libre Baskerville",
+                                        "value": "'Libre Baskerville', serif",
+                                        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
+                                    },
+                                    "fontSize": "12px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -719,12 +239,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<p style=\"line-height: 140%;\"><em>1. Studens will...</em></p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "12px"
-                                        }
-                                    }
+                                    "text": "<p style=\"line-height: 140%;\"><em>3. Studens will...</em></p>"
                                 }
                             },
                             {
@@ -733,9 +248,14 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
                                     "fontSize": "12px",
                                     "textAlign": "left",
-                                    "lineHeight": "140%",
+                                    "lineHeight": "160%",
                                     "linkStyle": {
                                         "inherit": true,
                                         "linkColor": "#0000ee",
@@ -754,12 +274,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<p style=\"line-height: 140%;\">Warm-up:</p>\n<p style=\"line-height: 140%;\">brainstorm and discuss the connection between the image and families.</p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "10px"
-                                        }
-                                    }
+                                    "text": "<p style=\"line-height: 160%;\">take torns reading paragraphs out loud and answer comprehension questions.</p>"
                                 }
                             }
                         ],
@@ -773,7 +288,7 @@ const jsonData = {
                                 "borderLeftWidth": "0px",
                                 "borderLeftStyle": "solid",
                                 "borderLeftColor": "#CCC",
-                                "borderRightWidth": "2px",
+                                "borderRightWidth": "4px",
                                 "borderRightStyle": "solid",
                                 "borderRightColor": "#000000",
                                 "borderBottomWidth": "2px",
@@ -784,24 +299,6 @@ const jsonData = {
                             "_meta": {
                                 "htmlID": "u_column_7",
                                 "htmlClassNames": "u_column"
-                            },
-                            "_override": {
-                                "mobile": {
-                                    "border": {
-                                        "borderTopWidth": "0px",
-                                        "borderTopStyle": "solid",
-                                        "borderTopColor": "#CCC",
-                                        "borderLeftWidth": "2px",
-                                        "borderLeftStyle": "solid",
-                                        "borderLeftColor": "#0e0b21",
-                                        "borderRightWidth": "2px",
-                                        "borderRightStyle": "solid",
-                                        "borderRightColor": "#000000",
-                                        "borderBottomWidth": "2px",
-                                        "borderBottomStyle": "solid",
-                                        "borderBottomColor": "#0e0b21"
-                                    }
-                                }
                             }
                         }
                     }
@@ -829,12 +326,7 @@ const jsonData = {
                     "draggable": true,
                     "duplicatable": true,
                     "deletable": true,
-                    "hideable": true,
-                    "_override": {
-                        "mobile": {
-                            "padding": "0px"
-                        }
-                    }
+                    "hideable": true
                 }
             },
             {
@@ -853,7 +345,12 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
-                                    "fontSize": "16px",
+                                    "fontFamily": {
+                                        "label": "Libre Baskerville",
+                                        "value": "'Libre Baskerville', serif",
+                                        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
+                                    },
+                                    "fontSize": "12px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -874,12 +371,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<p style=\"line-height: 140%;\"><em>2. Teacher will...</em></p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "12px"
-                                        }
-                                    }
+                                    "text": "<p style=\"line-height: 140%;\"><em>4. Teacher will...</em></p>"
                                 }
                             },
                             {
@@ -888,9 +380,14 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
                                     "fontSize": "12px",
                                     "textAlign": "left",
-                                    "lineHeight": "140%",
+                                    "lineHeight": "160%",
                                     "linkStyle": {
                                         "inherit": true,
                                         "linkColor": "#0000ee",
@@ -909,12 +406,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<p style=\"line-height: 140%;\">ask for volunteers to share their response while guiding their conversation.</p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "10px"
-                                        }
-                                    }
+                                    "text": "<p style=\"line-height: 160%;\">explain questions on Page 6. Walk around groups asking questions and provide support for students.</p>\n<p style=\"line-height: 160%;\"> </p>"
                                 }
                             }
                         ],
@@ -925,7 +417,7 @@ const jsonData = {
                                 "borderTopWidth": "0px",
                                 "borderTopStyle": "solid",
                                 "borderTopColor": "#CCC",
-                                "borderLeftWidth": "2px",
+                                "borderLeftWidth": "4px",
                                 "borderLeftStyle": "solid",
                                 "borderLeftColor": "#000000",
                                 "borderRightWidth": "2px",
@@ -946,12 +438,17 @@ const jsonData = {
                         "id": "Y_pp7-Ue_R",
                         "contents": [
                             {
-                                "id": "05mwUDp-3y",
+                                "id": "rBeTR9YkT7",
                                 "type": "text",
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
-                                    "fontSize": "16px",
+                                    "fontFamily": {
+                                        "label": "Libre Baskerville",
+                                        "value": "'Libre Baskerville', serif",
+                                        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
+                                    },
+                                    "fontSize": "12px",
                                     "textAlign": "left",
                                     "lineHeight": "140%",
                                     "linkStyle": {
@@ -964,7 +461,7 @@ const jsonData = {
                                     "hideDesktop": false,
                                     "displayCondition": null,
                                     "_meta": {
-                                        "htmlID": "u_content_text_6",
+                                        "htmlID": "u_content_text_11",
                                         "htmlClassNames": "u_content_text"
                                     },
                                     "selectable": true,
@@ -972,12 +469,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<p style=\"line-height: 140%;\"><em>2. Studens will...</em></p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "12px"
-                                        }
-                                    }
+                                    "text": "<p style=\"line-height: 140%;\"><em>4. Studens will...</em></p>"
                                 }
                             },
                             {
@@ -986,9 +478,14 @@ const jsonData = {
                                 "values": {
                                     "containerPadding": "10px",
                                     "anchor": "",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
                                     "fontSize": "12px",
                                     "textAlign": "left",
-                                    "lineHeight": "140%",
+                                    "lineHeight": "160%",
                                     "linkStyle": {
                                         "inherit": true,
                                         "linkColor": "#0000ee",
@@ -1007,12 +504,7 @@ const jsonData = {
                                     "duplicatable": true,
                                     "deletable": true,
                                     "hideable": true,
-                                    "text": "<p style=\"line-height: 140%;\">share the response and listen to their classmates' connections to the topic.</p>\n<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\"> </p>",
-                                    "_override": {
-                                        "mobile": {
-                                            "fontSize": "10px"
-                                        }
-                                    }
+                                    "text": "<p style=\"line-height: 160%;\">answer the questions in written form. Once completed, they will discuss their answers with a partner. </p>"
                                 }
                             }
                         ],
@@ -1026,7 +518,7 @@ const jsonData = {
                                 "borderLeftWidth": "0px",
                                 "borderLeftStyle": "solid",
                                 "borderLeftColor": "#CCC",
-                                "borderRightWidth": "2px",
+                                "borderRightWidth": "4px",
                                 "borderRightStyle": "solid",
                                 "borderRightColor": "#000000",
                                 "borderBottomWidth": "0px",
@@ -1037,24 +529,6 @@ const jsonData = {
                             "_meta": {
                                 "htmlID": "u_column_9",
                                 "htmlClassNames": "u_column"
-                            },
-                            "_override": {
-                                "mobile": {
-                                    "border": {
-                                        "borderTopWidth": "0px",
-                                        "borderTopStyle": "solid",
-                                        "borderTopColor": "#CCC",
-                                        "borderLeftWidth": "2px",
-                                        "borderLeftStyle": "solid",
-                                        "borderLeftColor": "#0e0b21",
-                                        "borderRightWidth": "2px",
-                                        "borderRightStyle": "solid",
-                                        "borderRightColor": "#000000",
-                                        "borderBottomWidth": "0px",
-                                        "borderBottomStyle": "solid",
-                                        "borderBottomColor": "#CCC"
-                                    }
-                                }
                             }
                         }
                     }
@@ -1082,12 +556,232 @@ const jsonData = {
                     "draggable": true,
                     "duplicatable": true,
                     "deletable": true,
-                    "hideable": true,
-                    "_override": {
-                        "mobile": {
-                            "padding": "0px"
+                    "hideable": true
+                }
+            },
+            {
+                "id": "8SM7uzdgNc",
+                "cells": [
+                    1,
+                    1
+                ],
+                "columns": [
+                    {
+                        "id": "4pb13vpSqW",
+                        "contents": [
+                            {
+                                "id": "w0v8LqmJxe",
+                                "type": "text",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "anchor": "",
+                                    "fontFamily": {
+                                        "label": "Libre Baskerville",
+                                        "value": "'Libre Baskerville', serif",
+                                        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
+                                    },
+                                    "fontSize": "12px",
+                                    "textAlign": "left",
+                                    "lineHeight": "140%",
+                                    "linkStyle": {
+                                        "inherit": true,
+                                        "linkColor": "#0000ee",
+                                        "linkHoverColor": "#0000ee",
+                                        "linkUnderline": true,
+                                        "linkHoverUnderline": true
+                                    },
+                                    "hideDesktop": false,
+                                    "displayCondition": null,
+                                    "_meta": {
+                                        "htmlID": "u_content_text_12",
+                                        "htmlClassNames": "u_content_text"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "hideable": true,
+                                    "text": "<p style=\"line-height: 140%;\"><em>5. Teacher will...</em></p>"
+                                }
+                            },
+                            {
+                                "id": "NZJaxn0F58",
+                                "type": "text",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "anchor": "",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "12px",
+                                    "textAlign": "left",
+                                    "lineHeight": "160%",
+                                    "linkStyle": {
+                                        "inherit": true,
+                                        "linkColor": "#0000ee",
+                                        "linkHoverColor": "#0000ee",
+                                        "linkUnderline": true,
+                                        "linkHoverUnderline": true
+                                    },
+                                    "hideDesktop": false,
+                                    "displayCondition": null,
+                                    "_meta": {
+                                        "htmlID": "u_content_text_13",
+                                        "htmlClassNames": "u_content_text"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "hideable": true,
+                                    "text": "<p style=\"line-height: 160%;\">assign page 10 on assessment for students to complete on their own, A timer can be added.</p>\n<p style=\"line-height: 160%;\"> </p>\n<p style=\"line-height: 160%;\"> </p>\n<p style=\"line-height: 160%;\"> </p>"
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "#bee8e5",
+                            "padding": "0px",
+                            "border": {
+                                "borderTopWidth": "0px",
+                                "borderTopStyle": "solid",
+                                "borderTopColor": "#CCC",
+                                "borderLeftWidth": "4px",
+                                "borderLeftStyle": "solid",
+                                "borderLeftColor": "#000000",
+                                "borderRightWidth": "2px",
+                                "borderRightStyle": "solid",
+                                "borderRightColor": "#0e0b21",
+                                "borderBottomWidth": "0px",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#CCC"
+                            },
+                            "borderRadius": "0px",
+                            "_meta": {
+                                "htmlID": "u_column_11",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    },
+                    {
+                        "id": "58eJhzL0xh",
+                        "contents": [
+                            {
+                                "id": "Td4WMrQkG2",
+                                "type": "text",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "anchor": "",
+                                    "fontFamily": {
+                                        "label": "Libre Baskerville",
+                                        "value": "'Libre Baskerville', serif",
+                                        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
+                                    },
+                                    "fontSize": "12px",
+                                    "textAlign": "left",
+                                    "lineHeight": "140%",
+                                    "linkStyle": {
+                                        "inherit": true,
+                                        "linkColor": "#0000ee",
+                                        "linkHoverColor": "#0000ee",
+                                        "linkUnderline": true,
+                                        "linkHoverUnderline": true
+                                    },
+                                    "hideDesktop": false,
+                                    "displayCondition": null,
+                                    "_meta": {
+                                        "htmlID": "u_content_text_14",
+                                        "htmlClassNames": "u_content_text"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "hideable": true,
+                                    "text": "<p style=\"line-height: 140%;\"><em>5. Studens will...</em></p>"
+                                }
+                            },
+                            {
+                                "id": "GJphfYxsWn",
+                                "type": "text",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "anchor": "",
+                                    "fontSize": "12px",
+                                    "textAlign": "left",
+                                    "lineHeight": "160%",
+                                    "linkStyle": {
+                                        "inherit": true,
+                                        "linkColor": "#0000ee",
+                                        "linkHoverColor": "#0000ee",
+                                        "linkUnderline": true,
+                                        "linkHoverUnderline": true
+                                    },
+                                    "hideDesktop": false,
+                                    "displayCondition": null,
+                                    "_meta": {
+                                        "htmlID": "u_content_text_15",
+                                        "htmlClassNames": "u_content_text"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "hideable": true,
+                                    "text": "<p style=\"line-height: 160%;\">complete assessment on page 10 individually.</p>"
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "#bee8e5",
+                            "padding": "0px",
+                            "border": {
+                                "borderTopWidth": "0px",
+                                "borderTopStyle": "solid",
+                                "borderTopColor": "#CCC",
+                                "borderLeftWidth": "0px",
+                                "borderLeftStyle": "solid",
+                                "borderLeftColor": "#CCC",
+                                "borderRightWidth": "4px",
+                                "borderRightStyle": "solid",
+                                "borderRightColor": "#000000",
+                                "borderBottomWidth": "0px",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#CCC"
+                            },
+                            "borderRadius": "0px",
+                            "_meta": {
+                                "htmlID": "u_column_12",
+                                "htmlClassNames": "u_column"
+                            }
                         }
                     }
+                ],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px 50px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_9",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
                 }
             },
             {
@@ -1100,29 +794,40 @@ const jsonData = {
                         "id": "t5YSAR1So1",
                         "contents": [
                             {
-                                "id": "VVS5LwX71p",
-                                "type": "divider",
+                                "id": "Rx_1kJc8cG",
+                                "type": "heading",
                                 "values": {
-                                    "width": "100%",
-                                    "border": {
-                                        "borderTopWidth": "40px",
-                                        "borderTopStyle": "solid",
-                                        "borderTopColor": "#262350"
-                                    },
-                                    "textAlign": "center",
-                                    "containerPadding": "0px",
+                                    "containerPadding": "6px",
                                     "anchor": "",
+                                    "headingType": "h1",
+                                    "fontFamily": {
+                                        "label": "Libre Baskerville",
+                                        "value": "'Libre Baskerville', serif",
+                                        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
+                                    },
+                                    "fontSize": "12px",
+                                    "color": "#ffffff",
+                                    "textAlign": "center",
+                                    "lineHeight": "150%",
+                                    "linkStyle": {
+                                        "inherit": true,
+                                        "linkColor": "#0000ee",
+                                        "linkHoverColor": "#0000ee",
+                                        "linkUnderline": true,
+                                        "linkHoverUnderline": true
+                                    },
                                     "hideDesktop": false,
                                     "displayCondition": null,
                                     "_meta": {
-                                        "htmlID": "u_content_divider_1",
-                                        "htmlClassNames": "u_content_divider"
+                                        "htmlID": "u_content_heading_3",
+                                        "htmlClassNames": "u_content_heading"
                                     },
                                     "selectable": true,
                                     "draggable": true,
                                     "duplicatable": true,
                                     "deletable": true,
-                                    "hideable": true
+                                    "hideable": true,
+                                    "text": "<span><span><span><span><span><span><span><span><span style=\"line-height: 30px;\"><span style=\"line-height: 30px;\"><span style=\"line-height: 30px;\"><em>Exit Ticket</em></span></span></span></span></span></span></span></span></span></span></span>"
                                 }
                             }
                         ],
@@ -1161,12 +866,200 @@ const jsonData = {
                     "draggable": true,
                     "duplicatable": true,
                     "deletable": true,
-                    "hideable": true,
-                    "_override": {
-                        "mobile": {
-                            "padding": "0px"
+                    "hideable": true
+                }
+            },
+            {
+                "id": "slUJQuQIKt",
+                "cells": [
+                    1
+                ],
+                "columns": [
+                    {
+                        "id": "ORC-8xvLZb",
+                        "contents": [
+                            {
+                                "id": "tFqnQhT4uc",
+                                "type": "text",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "anchor": "",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "12px",
+                                    "textAlign": "left",
+                                    "lineHeight": "160%",
+                                    "linkStyle": {
+                                        "inherit": true,
+                                        "linkColor": "#0000ee",
+                                        "linkHoverColor": "#0000ee",
+                                        "linkUnderline": true,
+                                        "linkHoverUnderline": true
+                                    },
+                                    "hideDesktop": false,
+                                    "displayCondition": null,
+                                    "_meta": {
+                                        "htmlID": "u_content_text_16",
+                                        "htmlClassNames": "u_content_text"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "hideable": true,
+                                    "text": "<p style=\"line-height: 160%;\">To check for understanding of the lesson, have students complete this exits slip in one of the various form: write their answer on a sheet of paper and turn it in to you, share their response with a classmate, or share their response with the class.</p>\n<p style=\"line-height: 160%;\"> </p>\n<p style=\"line-height: 160%;\">¿Qué es una tradición que ha cambiado con el transcurso del tiempo y las familias?</p>"
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "#b5eed0",
+                            "padding": "0px",
+                            "border": {
+                                "borderTopWidth": "0px",
+                                "borderTopStyle": "solid",
+                                "borderTopColor": "#CCC",
+                                "borderLeftWidth": "4px",
+                                "borderLeftStyle": "solid",
+                                "borderLeftColor": "#000000",
+                                "borderRightWidth": "4px",
+                                "borderRightStyle": "solid",
+                                "borderRightColor": "#000000",
+                                "borderBottomWidth": "0px",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#CCC"
+                            },
+                            "borderRadius": "0px",
+                            "_meta": {
+                                "htmlID": "u_column_14",
+                                "htmlClassNames": "u_column"
+                            }
                         }
                     }
+                ],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px 50px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_11",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
+                }
+            },
+            {
+                "id": "CGrMDVJWuL",
+                "cells": [
+                    1
+                ],
+                "columns": [
+                    {
+                        "id": "IvEJkUmcH1",
+                        "contents": [
+                            {
+                                "id": "-FhJt_JtPE",
+                                "type": "text",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "anchor": "",
+                                    "fontFamily": {
+                                        "label": "Glacial Indifference",
+                                        "value": "'Glacial Indifference', sans-serif",
+                                        "url": "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                                    },
+                                    "fontSize": "11px",
+                                    "color": "#ffffff",
+                                    "textAlign": "center",
+                                    "lineHeight": "140%",
+                                    "linkStyle": {
+                                        "inherit": true,
+                                        "linkColor": "#0000ee",
+                                        "linkHoverColor": "#0000ee",
+                                        "linkUnderline": true,
+                                        "linkHoverUnderline": true
+                                    },
+                                    "hideDesktop": false,
+                                    "displayCondition": null,
+                                    "_meta": {
+                                        "htmlID": "u_content_text_17",
+                                        "htmlClassNames": "u_content_text"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "hideable": true,
+                                    "text": "<p style=\"line-height: 140%;\"> </p>\n<p style=\"line-height: 140%;\">All rights reserved. Reproduction is prohibited total<br />or partial of this work, by any means or procedure, including <br />reprography and computer processing photocopying, or recording,<br />without the prior written authorization of <br />@One Way Education, LLC.</p>\n<p style=\"line-height: 140%;\"> </p>"
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "#242c6b",
+                            "padding": "0px",
+                            "border": {
+                                "borderTopWidth": "0px",
+                                "borderTopStyle": "solid",
+                                "borderTopColor": "#CCC",
+                                "borderLeftWidth": "4px",
+                                "borderLeftStyle": "solid",
+                                "borderLeftColor": "#000000",
+                                "borderRightWidth": "4px",
+                                "borderRightStyle": "solid",
+                                "borderRightColor": "#000000",
+                                "borderBottomWidth": "0px",
+                                "borderBottomStyle": "solid",
+                                "borderBottomColor": "#CCC"
+                            },
+                            "borderRadius": "0px",
+                            "_meta": {
+                                "htmlID": "u_column_16",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    }
+                ],
+                "values": {
+                    "displayCondition": null,
+                    "columns": false,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": "no-repeat",
+                        "size": "custom",
+                        "position": "center"
+                    },
+                    "padding": "0px 50px",
+                    "anchor": "",
+                    "hideDesktop": false,
+                    "_meta": {
+                        "htmlID": "u_row_13",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true,
+                    "hideable": true
                 }
             }
         ],

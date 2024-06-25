@@ -42,6 +42,40 @@ const EmailEditorData = ({ onChange }) => {
         appearance: {
             showPoweredBy: true,
         },
+        fonts: {
+            showDefaultFonts: true,
+            customFonts: [
+                {
+                    label: "Comic Sans",
+                    value: "'Comic Sans MS', cursive, sans-serif"
+                },
+                {
+                    label: "Lobster Two",
+                    value: "'Lobster Two', cursive",
+                    url: "https://fonts.googleapis.com/css?family=Lobster+Two:400,700"
+                },
+                {
+                    label: "Open Sans",
+                    value: "'Open Sans', sans-serif",
+                    url: "https://fonts.googleapis.com/css?family=Open+Sans"
+                },
+                {
+                    label: "League Spartan",
+                    value: "'League Spartan', sans-serif",
+                    url: "https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap"
+                },
+                {
+                    label: "Glacial Indifference",
+                    value: "'Glacial Indifference', sans-serif",
+                    url: "https://fonts.googleapis.com/css2?family=Glacial+Indifference&display=swap"
+                },
+                {
+                    label: "Libre Baskerville",
+                    value: "'Libre Baskerville', serif",
+                    url: "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
+                }
+            ],
+        },
     };
 
     const onLoad = () => {
